@@ -1,7 +1,3 @@
-#test tuple
-b = ("Bob", 19, "CS")
-(name, age, studies) = b
-
-print(name)
-print(age)
-print(studies)
+#test string object
+ss = "Hello, World!"
+print( ss.upper() )
