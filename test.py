@@ -1,8 +1,7 @@
-import fibonnaci
-import os
+#test tuple
+b = ("Bob", 19, "CS")
+(name, age, studies) = b
 
-print(fibonnaci.fib2(1000))
-print( os.getcwd() )
-
-help( os )
-
+print(name)
+print(age)
+print(studies)
